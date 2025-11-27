@@ -1,6 +1,6 @@
 import { useState } from "react";
 import classes from "./NewPost.module.css";
-import Modal from "./Modal";
+import Modal from "../components/Modal";
 
 function NewPost({ onCancel, onAddPost }) {
   const [enteredBody, setEnteredBody] = useState("");
